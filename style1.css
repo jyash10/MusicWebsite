@@ -1,0 +1,245 @@
+
+    body{
+    margin:0;
+    font-family: 'Montserrat', serif;
+}
+h1{
+    color:#b6c0c2;
+    text-align:center;
+    font-size: 50px; 
+    padding-top:20px;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    margin-top:0;
+    padding-top:0px;
+    height: 700px;
+    width: 100%;
+    background-image: url('images&icon/image3.png');
+    background-size: cover;
+    background-position: center; 
+}
+.logo 
+{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+    padding:0;
+    list-style: none;
+    display: inline-block;
+    margin:30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px; 
+    color:#EAF6F6;
+    font: italic small-caps bold 13px Georgia, serif;
+    margin:10px 20px;
+    text-decoration:none;
+}
+.navbar ul li a:hover{
+        color:#11999E;
+    }
+    .button{
+        height:70px;
+        padding:18px;
+        text-align:center;
+        background-color:#1a1818;
+    }
+    .copyright{
+        color:#EAF6F6;
+        font-size:1 rem;
+        padding:20px 0;
+        font-family: 'Merriweather', sans-serif;
+    }
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #919191, #11999E);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+  .profileimage{
+    width:550px;
+    height:350px;
+    margin-top:90px;
+    border-radius:30%;
+    margin-left:50px;
+}
+
+
+input[type=text], input[type=password],input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    border-radius: 8px;
+    background-color: #04AA6D;
+    color: white;
+    font-size:28px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+button:hover {
+    background-color:#f44336;
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    font-size:15px;
+  width: 15%;
+  padding: 10px 18px;
+  background-color: #11999E;
+}
+.cancelbtn:hover {
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.b-container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The login (background) */
+.login {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* login Content/Box */
+.login-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.signup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* login Content/Box */
+.signup-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
